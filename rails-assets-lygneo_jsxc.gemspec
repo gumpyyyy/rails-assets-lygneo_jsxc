@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails-assets-diaspora_jsxc/version'
+require 'rails-assets-lygneo_jsxc/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails-assets-diaspora_jsxc"
-  spec.version       = RailsAssetsDiasporaJsxc::VERSION
+  spec.name          = "rails-assets-lygneo_jsxc"
+  spec.version       = RailsAssetsLygneoJsxc::VERSION
   spec.authors       = ["rails-assets.org"]
-  spec.description   = "XMPP javascript client for diaspora"
-  spec.summary       = "XMPP javascript client for diaspora"
-  spec.homepage      = "https://github.com/diaspora/jsxc"
+  spec.description   = "XMPP javascript client for lygneo"
+  spec.summary       = "XMPP javascript client for lygneo"
+  spec.homepage      = "https://github.com/gumpyyyy/rails-assets-lygneo_jsxc"
   spec.license       = "MIT"
 
   spec.files         = `find ./* -type f | cut -b 3-`.split($/)
