@@ -1,10 +1,22 @@
-Lygneo JSXC Integration
-=========================
+# rails-assets-lygneo_jsxc
 
-**master** [ ![Build Status](https://travis-ci.org/lygneo/jsxc.svg?branch=master) ](https://travis-ci.org/lygneo/jsxc)  
-**develop** [ ![Build Status](https://travis-ci.org/lygneo/jsxc.svg?branch=develop) ](https://travis-ci.org/lygneo/jsxc)
+> The Bower package inside a gem
 
-This XMPP client was forked from [jsxc.org](http://www.jsxc.org/)
-and was slimmed down for [Lygneo](https://lygneofoundation.org) usage only!
+This gem was automatically generated. You can visit [rails-assets.org](https://rails-assets.org) for more information.
 
-**DO NOT** use this jsxc version unless you know what you're doing!!
+## Usage
+
+Add rails-assets source block to your `Gemfile`:
+
+```ruby
+source "https://rails-assets.org" do
+  gem "rails-assets-lygneo_jsxc"
+end
+
+```
+
+Then, import the asset using Sprockets’ `require` directive:
+
+```js
+//= require "lygneo_jsxc"
+```

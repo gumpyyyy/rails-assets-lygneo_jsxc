@@ -1,0 +1,10 @@
+//= require lygneo_jsxc/lib/strophe.js
+//= require lygneo_jsxc/lib/strophe.disco.js
+//= require lygneo_jsxc/lib/strophe.caps.js
+//= require lygneo_jsxc/lib/strophe.muc.js
+//= require lygneo_jsxc/lib/strophe.vcard.js
+//= require lygneo_jsxc/lib/jquery.colorbox-min.js
+//= require lygneo_jsxc/lib/jquery.slimscroll.js
+//= require lygneo_jsxc/lib/jquery.fullscreen.js
+//= require lygneo_jsxc/lib/jsxc.dep.min.js
+//= require lygneo_jsxc/jsxc.min.js
