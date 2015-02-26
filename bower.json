@@ -1,0 +1,57 @@
+{
+  "name": "lygneo_jsxc",
+  "version": "0.0.12",
+  "homepage": "https://github.com/lygneo/jsxc",
+  "description": "XMPP javascript client for lygneo",
+  "main": [
+    "build/lib/strophe.js",
+    "build/lib/strophe.disco.js",
+    "build/lib/strophe.caps.js",
+    "build/lib/strophe.muc.js",
+    "build/lib/strophe.vcard.js",
+    "lib/jquery-ui.min.css",
+    "lib/jquery.mCustomScrollbar.css",
+    "lib/jquery.colorbox.css",
+    "build/lib/jquery.colorbox-min.js",
+    "build/lib/jquery.slimscroll.js",
+    "build/lib/jquery.fullscreen.js",
+    "build/css/jsxc.css",
+    "build/css/jsxc.webrtc.css",
+    "build/lib/jsxc.dep.min.js",
+    "build/jsxc.min.js"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "xmpp",
+    "chat",
+    "client",
+    "lygneo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "jsxc.*",
+    "locales/",
+    "build/lib/otr/",
+    "build/lib/strophe.jingle/",
+    "example/",
+    "lib/*.js",
+    "lib/otr/",
+    "lib/strophe.jingle/",
+    "img/",
+    "doc/",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "jquery-ui": "~1.10.4",
+    "jquery-colorbox": "~1.5.14",
+    "jquery.slimscroll": "~1.3.3",
+    "jquery-fullscreen": "~1.1.4"
+  }
+}
